@@ -1,0 +1,11 @@
+.icon {
+  font-size: 3rem;
+  opacity: 0.8;
+  margin: 5px;
+  transition: font-size 1s;
+}
+
+.icon:hover {
+  font-size: 3.5rem;
+  opacity: 1;
+}

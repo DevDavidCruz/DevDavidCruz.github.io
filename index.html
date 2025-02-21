@@ -5,11 +5,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DevDavidCruz: Home</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/terminal.css">
+  <link rel="stylesheet" href="styles/devicon.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 </head>
 
+
 <body>
-  <p>Hello</p>
+
+  <header id="navbar" class="sticky-navbar">
+    <nav>
+      <div class="logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#recognition">Recognitions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <img class="headshot" src="./resources/images/me_art.png"></img>
+      <p class="body">
+      </p>
+    </section>
+
+    <section class="interactive">
+      <div class="terminal" id="terminal">
+        <div class="line">
+          <span class="prompt">[guest@Web] $</span>
+          <input type="text" class="input" id="commandInput" autofocus />
+        </div>
+      </div>
+      <div class="terminal-window-tab">
+        <span>Terminal</span>
+        <span class="term-date" id="term-date">2025-02-21</span>
+      </div>
+    </section>
+
+    <!--<section class="operating-systems" id="operating-systems">
+      <h1 class="header">
+        Operating Systems
+      </h1>
+      <div class="icon-container">
+        <i class="devicon-windows11-plain icon"></i>
+        <i class="devicon-apple-plain icon"></i>
+        <i class="devicon-archlinux-plain icon"></i>
+        <i class="devicon-linux-plain icon"></i>
+      </div>
+    </section>-->
+
+    <!--<section class="skills" id="skills">
+      <h1 class="header">
+        Programming Languages
+      </h1>
+      <div class="icon-container">
+        <i class="devicon-cplusplus-plain icon"></i>
+        <i class="devicon-csharp-plain icon"></i>
+        <i class="devicon-python-plain icon"></i>
+        <i class="devicon-rust-plain icon"></i>
+        <i class="devicon-bash-plain icon"></i>
+        <i class="devicon-powershell-plain icon"></i>
+        <i class="devicon-swift-plain icon"></i>
+        <i class="devicon-javascript-plain icon"></i>
+        <i class="devicon-html5-plain icon"></i>
+        <i class="devicon-css3-plain icon"></i>
+        <i class="devicon-azuresqldatabase-plain icon"></i>
+      </div>
+    </section>-->
+
+  </main>
+  <script src="scripts/terminal.js"></script>
+
 </body>
+
 </html>

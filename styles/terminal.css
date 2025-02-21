@@ -1,0 +1,76 @@
+.terminal {
+  color: var(--term_foreground_1);
+  width: 80%;
+  height: 50vh;
+  padding: 10px;
+  overflow-y: auto;
+  /*white-space: pre-wrap;*/
+  word-wrap: break-word;
+  border-radius: 5px;
+  background-color: var(--term_background_1);
+}
+
+.line {
+  display: flex;
+  background-color: var(--term_background_1);
+}
+
+.prompt {
+  color: var(--term_foreground_1);
+  margin-right: 10px;
+  background-color: var(--term_background_1);
+}
+
+.input {
+  flex-grow: 1;
+  outline: none;
+  border: none;
+  background-color: var(--term_background_1);
+  color: var(--term_foreground_1)
+}
+
+.term-icon {
+  color: var(--term_foreground_1)
+}
+
+.terminal ul {
+  list-style: none;
+}
+
+.terminal i {
+  font-size: 1.10rem;
+  font-weight: lighter;
+  margin: 0.5rem;
+  padding: 5px;
+}
+
+.terminal li {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--term_foreground_1);
+  padding: 2px;
+}
+
+.terminal p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--term_foreground_1)
+}
+
+.terminal td {
+  color: var(--term_foreground_1)
+}
+
+.terminal-window-tab {
+  background-color: var(--background_4);
+  width: 80%;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.terminal-window-tab span {
+  color: var(--highlight_1);
+}
